@@ -1,0 +1,34 @@
+{
+  "name": "elasticsearch_example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.6",
+    "vue-date-calendar": "^2.0.1",
+    "zane-calendar": "1.3.1",
+    "classnames": "^2.2.6",
+    "@znck/prop-types": "^0.6.1",
+    "dayjs": "1.8.12",
+    "axios": "^0.18.0",
+    "qs": "^6.7.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^3.1.1",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
