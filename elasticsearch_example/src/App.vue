@@ -1,15 +1,16 @@
 <template>
     <div id="app">
-        <HtmlParser/>
+        <NestedQuery/>
     </div>
 </template>
 
 <script>
 import HtmlParser from './components/HtmlParser'
+import NestedQuery from './components/NestedQuery'
 
 export default {
   name: "App",
-  components: {HtmlParser}
+  components: {HtmlParser, NestedQuery}
 }
 </script>
 
